@@ -6,12 +6,11 @@
 body{
     background: #F7F9F9;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
-#contenedor{
-	
+#contenedor{	
 	margin: auto;
-	
 	overflow:hidden;	
 }
 
@@ -29,7 +28,8 @@ header h1 {
     margin-left: 20px;
     margin-top: 10px;
     
-	float: left;
+    float: left;
+    
 }
 
 #redes {
@@ -38,11 +38,11 @@ header h1 {
 }
 
 nav {
-	background: #0E6655;
+	
     height: 60px;
     position: sticky;
     top: 1rem;
-    background-color:;
+    background: rgba(11, 48, 97, 0.993);
 }
 
 nav li {
@@ -63,11 +63,12 @@ nav o{
     padding: 20px 0px;
 }
 nav a:hover {
-	background: #000;
+	background:black;
 }
 #banner {
 	margin: auto;
-	border: 10px solid #000;
+    border: 10px solid transparent;
+    
 	
 }
 
@@ -87,7 +88,7 @@ nav a:hover {
 	font-size: 40px;
 	padding: 10px;
 	color: #fff;
-	background: #0E6655;
+	background: rgba(11, 48, 97, 0.993);
 	float: center;
 	
 	
@@ -109,7 +110,7 @@ nav a:hover {
 
 footer {
 	height:  60px;
-	background: #9C640C;
+	background: rgba(11, 48, 97, 0.993);
 	clear: both;
 }
 
