@@ -76,7 +76,6 @@ nav a:hover {
 }
 
 #contenido {
-	
 	width: 700px;
 	background: #fff;
 	border-radius: 10px;
@@ -84,8 +83,6 @@ nav a:hover {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 10px;
-	
-
 }
 .articulos h2 {
 	font-size: 40px;
@@ -93,13 +90,9 @@ nav a:hover {
 	color: #fff;
     background: rgba(11, 48, 97, 0.993);
     text-align: center;
-	
-	
-	
 }
 
-.articulos img {
-	
+.articulos img {	
 	margin: 10px;
 }
 
@@ -111,11 +104,9 @@ nav a:hover {
 	font-size: 30;
 }
 #productosNuevos {
-	
 	width: 250px;
 	background: #fff; 
 	margin-top: 10px;
-	
 }
 #productos h1{
     font-size: 25px;
@@ -123,9 +114,6 @@ nav a:hover {
 	text-align: center;
 	padding: 10px;
 	color: #fff;
-
-
-
 }
 
 #productosNuevos h3 {
@@ -140,7 +128,7 @@ nav a:hover {
     
 
 }
-#producto2{
+#p1{
     float: center;
 }
 
