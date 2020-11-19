@@ -100,6 +100,7 @@ nav a:hover {
 	margin-bottom: 10px;
 	margin-top: 10px;
 	line-height: 15px;
+
 	text-align:justify;
 	font-size: 30;
 }
@@ -114,6 +115,13 @@ nav a:hover {
 	text-align: center;
 	padding: 10px;
 	color: #fff;
+}
+#mapa{
+	text-align: center;
+}
+#mapaText{
+	font-size: 30px;
+	text-align: center;
 }
 
 #productosNuevos h3 {
