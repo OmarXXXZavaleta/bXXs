@@ -33,8 +33,9 @@ header h1 {
 }
 
 #redes {
-	float: left;
+	float: right;
 	line-height: 100px;
+	display: inline-block;
 }
 
 nav {
@@ -59,6 +60,14 @@ nav a{
 	padding: 20px;
 }
 nav b{
+	color: #fff;
+	font-size: 20px;
+	
+	font-weight: bold;
+	text-decoration: none;
+	padding: 20px;
+}
+nav {
 	color: #fff;
 	font-size: 20px;
 	
