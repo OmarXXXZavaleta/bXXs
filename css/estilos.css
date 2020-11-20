@@ -42,7 +42,7 @@ nav {
 	
     height: 85px;
     position: sticky;
-    top: 1rem;
+    top: 0.1px;
     background: rgba(11, 48, 97, 0.993);
 }
 
