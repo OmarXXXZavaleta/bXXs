@@ -16,15 +16,22 @@
 			<ul>
 				<li><a href="index.html">Inicio</a></li>
 				<li><a href="#">Tennis</a></li>
-				<li><a href="#">Accesorios</a></li>
-				<li><a href="#">Inicio Sesion</a></li>
+				<li><a href="">Inicio Sesion</a></li>
+				<li><b href onclick="ejecuta();">Alerta</b></li>
 				<o>
-					<a href= "http://www.facebook.com"><img src="imagenes/facebook.png" alt="Facebook"></a>
-					<a href= "http://www.instragram.com"><img src="imagenes/instagram.png" alt="Instragram"></a>
+					<a href= "http://www.facebook.com"><img src="img/facebook.png" alt="Facebook"></a>
+					<a href= "http://www.instragram.com"><img src="img/instagram.png" alt="Instragram"></a>
 				</o>
 			</ul>
-			
-			
+<!--Alerta del codigo escolar-->
+			<script>
+				function ejecuta() {
+				  Promise.resolve("Hola esta pagina esta hecha para uso unicamente escolar si estas de acuerdo sigue navegando, si no sal de la pagina").
+					then(a => alert(`Alerta!! ${a}`)).
+					catch(e => alert(`Fallo1 ${e.message}`));
+				}
+			  </script>
+
         </nav>
         <!--Una imagen de banner-->
         <section id="banner">
@@ -36,64 +43,17 @@
 		        <h2>Bienvenidos a Big XX Shoes</h2>
 		        <p>Los tennis que buscas a la comodidad del internet</p>
 		        <P>Tomate el tiempo para revisar todo nuestro catalogo, cualquier
-					duda puedes mandarnos mensaje a nuestras redes para una mejor atención.</P>	
+					duda puedes mandarnos mensaje a nuestras redes para una mejor atención.</P>
+				<h6>Lee por favor nuestra alerta que se encuentra en la parte superior</h6>
 				<img src="imagenes/img1.jpg" alt="">
-				<h2>Los productos más relevantes</h2>
-				
-			</article>
-			
-		
-			<div id="productos">
-			<div id="productosNuevos">
-				
-				<fieldset>
-					<legend><h3>Jordan 1</h3></legend>					
-					<h3>Spider-Man into the Spider-Verse</h3>
-					<p>Este iconico Jordan 1 traido desde 1985 fue inspirado
-					en la nueva pelicula del aracnido trepa muros
-				</p>
-				<div id=imgaside><img src="img/jordan1SP.png" alt=""></div>
-				<div id=botones><input type="submit" value="Ver"></div>
-				</fieldset>
-			</div>
-		</div>
-		<br>
-		<article class="producto2">
-			<div id="productosNuevos">
-				<fieldset>
-					<legend><h3>Jordan 1</h3></legend>					
-					<h3>Cactus Jack Travis Scott</h3>
-					<p>Este iconico Jordan 1 traido desde 1985 fue diseñado por el cantante
-						Travis Scott</p>
-				</p>
-				<div id=imgaside><img src="img/jordan1SP.png" alt=""></div>
-				<div id=botones><input type="submit" value="Ver"></div>
-				   </fieldset>
-			</div>
-			<br>
-		</article>
-		<article class="producto3">
-			<div id="productosNuevos">
-				<fieldset>
-					<legend><h3>Jordan 1</h3></legend>					
-					<h3>Dior</h3>
-					<p>Este iconico Jordan 1 traido desde 1985 fue diseñado por la importantisima
-						empresa Dior
-						
-					</p>
-				</p>
-				<div id=imgaside><img src="img/jordan1SP.png" alt=""></div>
-				<div id=botones><input type="submit" value="Ver"></div>
-				   </fieldset>
-			</div>
-			<br>
-		</article>
+				<h2 id="productoE">Nuestro producto más exclusivo</h2>
 
-		
-
+				<p id="jordan1Dior">
+					<img id="imgJ" src="img/jordan1Dior.png" alt="">
+					<p id="titulos">Jordan 1 Dior</p>	
+				</p>
+					
 		</section>
-		
-
 </body>
 <footer>
 	<p>Copyright &copy; 2020 Zavaleta Angeles Omar.</p>
