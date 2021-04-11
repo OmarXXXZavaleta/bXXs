@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width,
+       initial-scale=1.0">
+    <title>Historial IoT</title>
+    <script
+      src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="js/init.js">
+    </script>
+    <link href="css/estilos.css"
+      rel="stylesheet">
+    <script type="module"
+      src="cmp/mi-footer.js">
+      </script>
+  </head>
+  <body>
+    <div class="contenido">
+      <table>
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>dispositivoId</th>
+            <th>valor</th>
+            <th>timestamp</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script type="module"
+      src="js/CtrlHistorial.js">
+      </script>
+  </body>
+</html>

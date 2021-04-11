@@ -5,13 +5,10 @@
     <meta name="viewport"
       content="width=device-width,
       initial-scale=1.0">
-    <title>Control IoT</title>
-    <script
-      src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
-    <script
-      src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
-    <script src="js/init.js">
-    </script>
+    <title>
+      Simulación de Dispositivo
+      IoT
+    </title>
     <link href="css/estilos.css"
       rel="stylesheet">
     <script type="module"
@@ -20,17 +17,14 @@
   </head>
   <body>
     <div class="contenido">
-      <h1>Control IoT</h1>
+      <h1>
+        Simulación de Dispositivo
+        IoT
+      </h1>
       <p>
-        <a href="dispositivo.html"
-          target="_blank">Ver
-          dispositivo
-          simulado.</a>
-      </p>
-      <p>
-        <a href="historial.html"
-          target="_blank">Ver
-          historial.</a>
+        <a href="index.html"
+          target="_blank">
+          Ver móvil.</a>
       </p>
       <p>
         <label>
@@ -43,22 +37,34 @@
       <p>
         <label>
           Entrada
-          <meter id="ctEntrada"
+          <input id="ctEntrada"
+            type="range"
             min="0" max="10">
-          </meter>
         </label>
       </p>
       <p>
         <label>
-          <input id=ctSalida
-            type="checkbox">
-          Salida
+          <input id="ctSondea"
+            type="checkbox"
+            checked>
+          Sondea Salida
         </label>
+      </p>
+      <p>
+        <label>
+          Salida
+          <output id="ctSalida">
+          </output>
+        </label>
+      </p>
+      <p>
+        <output id="iotError">
+        </output>
       </p>
       <mi-footer></mi-footer>
     </div>
     <script type="module"
-      src="js/CtrlMovil.js">
+      src="disp/CtrlDispositivo.js">
       </script>
   </body>
 </html>
