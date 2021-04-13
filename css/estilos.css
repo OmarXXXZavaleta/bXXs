@@ -3,10 +3,13 @@ body {
   text-align: center;
 }
 
+
 .contenido {
+  
   display: inline-block;
   text-align: start;
-  
+}
+h1{
   text-align: center;
   padding-top: auto;
   padding-left: auto;
@@ -19,16 +22,35 @@ body {
   margin-right: auto;
 
   display: block;
+
 }
+
+
+
 
 meter,
 input[type=range],
 output {
   display: block;
+  text-align: start;
+  
 }
 
 mi-footer {
-  display: block;
-  margin: 1rem 0;
+  
+  
   font-size: small;
+
+  text-align: center;
+  padding-top: auto;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: auto;
+
+  margin-top: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+
+  display: block;
 }
