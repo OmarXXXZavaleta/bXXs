@@ -1,2 +1,2 @@
-# Link del sitio https://omarxxxzavaleta.github.io/bXXs/index.html 
+# Link del sitio https://omarxxxzavaleta.github.io/iot/index.html 
 practicaFinal
